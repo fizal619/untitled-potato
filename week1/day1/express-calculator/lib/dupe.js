@@ -3,9 +3,6 @@ function add(a, b){
 }
 
 function subtract(a, b){
-  if (a>100){
-    return "lol";
-  }
   return a - b
 }
 

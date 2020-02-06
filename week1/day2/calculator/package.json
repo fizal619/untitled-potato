@@ -4,6 +4,7 @@
   "license": "MIT",
   "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
+    "@testing-library/react": "^9.4.0",
     "chai": "^4.2.0",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1",
@@ -18,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --collectCoverage",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },

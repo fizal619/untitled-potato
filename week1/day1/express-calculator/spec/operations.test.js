@@ -8,8 +8,8 @@ test("The subtract function should return 1 with 2 and 1", ()=>{
   expect(subtract(2,1)).toBe(1);
 });
 
-test("The multiply function should return 2 with 2 and 1", ()=>{
-  expect(multiply(2,1)).toBe(2);
+test("The divide function should return 2 with 2 and 1", ()=>{
+  expect(divide(2,1)).toBe(2);
 });
 
 test("big numbers should return scientific notation", ()=>{
